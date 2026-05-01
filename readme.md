@@ -9,9 +9,9 @@
 ![CI/CD](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Dicoding](https://img.shields.io/badge/Dicoding-Submission-4285F4?style=for-the-badge)
 ![Score](https://img.shields.io/badge/Score-5%2F5_%E2%98%85-FFD700?style=for-the-badge)
-![Learning Path](https://img.shields.io/badge/Backend_JavaScript-Learning_Path_Stage_6-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Learning Path](https://img.shields.io/badge/Backend_JavaScript-Learning_Path_Stage_7-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 
-> ⭐ **Final submission for "Menjadi Back-End Developer Expert dengan JavaScript"** — Stage 7 and capstone of the *Backend JavaScript Learning Path* at Dicoding.
+> ⭐ **Final submission for "Menjadi Back-End Developer Expert dengan JavaScript"** — Stage 7 and final capstone of the *Backend JavaScript Learning Path* at Dicoding.
 > A production-structured RESTful discussion forum API implementing Clean Architecture across four strict layers, JWT dual-token authentication, RBAC, PostgreSQL with versioned migrations, 100% test coverage across 53 test files, automated CI/CD, and Docker + NGINX deployment. **Perfect score 5/5.**
 
 ---
@@ -36,7 +36,7 @@
 
 ## Executive Summary
 
-Forum API is the capstone of the Backend JavaScript Learning Path — the point where every concept from the preceding sixth stages converges into a single, coherent system: a discussion forum where users can create threads, post and delete comments, add and delete threaded replies, and toggle likes on comments.
+Forum API is the final capstone of the Backend JavaScript Learning Path — the point where every concept from the preceding six stages converges into a single, coherent system: a discussion forum where users can create threads, post and delete comments, add and delete threaded replies, and toggle likes on comments.
 
 What makes this project architecturally significant is not the feature set — it is the **discipline of separation**. Every use case is independently testable without touching a database, a framework, or an HTTP server. Every infrastructure concern (PostgreSQL, bcrypt, JWT) is injected as a dependency rather than imported directly. The result is a codebase where swapping the database or the web framework requires changes in exactly one place.
 
@@ -445,5 +445,5 @@ This project was built as a Dicoding course submission and is open for education
 
 ---
 
-*Submission: Menjadi Back-End Developer Expert dengan JavaScript — Stage 7 (Capstone) of Backend JavaScript Learning Path, Dicoding 2026*
+*Submission: Menjadi Back-End Developer Expert dengan JavaScript — Stage 7 (Final Capstone) of Backend JavaScript Learning Path, Dicoding 2026*
 *Reviewed Score: ⭐ 5/5 — Perfect*
